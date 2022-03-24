@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Jogo da Velha</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="atualizaMostrador()">
+        <div id="mostrador">
+        </div>
+
+        <div class="tabuleiro">
+            <div id="a1" class="espaco" jogada=""></div>
+            <div id="a2" class="espaco" jogada=""></div>
+            <div id="a3" class="espaco" jogada=""></div>
+
+            <div id="b1" class="espaco" jogada=""></div>
+            <div id="b2" class="espaco" jogada=""></div>
+            <div id="b3" class="espaco" jogada=""></div>
+
+            <div id="c1" class="espaco" jogada=""></div>
+            <div id="c2" class="espaco" jogada=""></div>
+            <div id="c3" class="espaco" jogada=""></div>
+        </div>
+
+        <div id="botao">
+            <button onclick="resetar()" type="reset">Resetar</button>
+        </div>
+    </body>
+</html>

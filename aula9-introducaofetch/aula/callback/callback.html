@@ -1,0 +1,38 @@
+<html>
+    <script>
+        function divisao(n1, n2, sucesso, erro) {
+            return new Promise((resolve, reject) => {
+                if(n2 != 0) {
+                    let resultado = n1 / n2
+
+                    resolve(resultado)
+                } else {
+                    reject('Divisão por zero')
+                }               
+            })           
+        }
+        
+        function calcularJuros(valor) {
+            return valor + valor * 0.1
+        }
+
+        function imprimirSucesso(valor) {
+            console.log(`O valor da divisão adicionado juros de 10% é ${valor}`)
+        }
+
+        function imprimirErro(erro) {
+            console.log(`Erro: ${erro}`)
+        }
+
+        divisao(10, 0)
+          .then((resultado) => {
+              return calcularJuros(resultado)
+          })
+          .then((resultado) => {
+              imprimirSucesso(resultado)
+          })
+          .catch((erro) => {
+              imprimirErro(erro)
+          })
+    </script>
+</html>

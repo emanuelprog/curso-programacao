@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Final Space</title>
+        <meta charset="utf-8">
+    </head>
+    <body onload="buscarPersonagens()">
+        <ul id="lista"></ul>
+    </body>
+    <script>
+        let listaFinalSpace = []
+        async function buscarPersonagens() {
+            let resultado = await fetch("https://finalspaceapi.com/api/v0/character/")
+            listaFinalSpace = await resultado.json()
+            let stringBuffer = ""
+            
+            for (let i = 0; i < listaFinalSpace.length; i++) {
+                stringBuffer += `<li>${listaFinalSpace[i].name}</li>`
+            }
+
+            let lista = document.getElementById("lista").innerHTML = stringBuffer
+            
+            // .then(resposta => {
+            //     return resposta.json()
+            // })
+            // .then(listaPersonagens => {
+            //     listaFinalSpace = listaPersonagens
+            //     document.getElementById("lista").innerText = listaFinalSpace
+            //     console.log(listaPersonagens);
+            // })
+            // .catch(erro => {
+            //     console.log(erro)
+            // })
+        }
+    </script>
+</html>

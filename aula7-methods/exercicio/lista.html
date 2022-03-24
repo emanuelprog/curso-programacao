@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js"></script>
+        <title>Lista de Tarefas</title>
+    </head>
+    <body>
+        <h1>Lista de Tarefas</h1>
+        <div class="adicionar-buscar">
+            <input id="adicionar-buscar" type="text" placeholder="Digite aqui a tarefa">
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="buscar()">Buscar</button>
+        </div>
+        <h2>Tarefas Adicionadas</h2>
+        <div class="adicionar-buscar">
+            <button onclick="limpar()">Limpar Filtro</button>
+        </div>
+        <section id="lista"></section>
+    </body>
+</html>

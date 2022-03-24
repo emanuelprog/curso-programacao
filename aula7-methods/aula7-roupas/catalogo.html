@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Loja de Roupas</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body onload="criaCatalogo()">
+        <h1>Roupas em só um lugar</h1>
+        <div class="busca">
+            <input id="busca" type="search" placeholder="Digite aqui o nome do produto">
+            <button onclick="buscar()">Buscar</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+        <section id="catalogo"></section>
+    </body>
+</html>

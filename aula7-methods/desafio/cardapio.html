@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cardápio</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Encontre seu Almoço</h1>
+        <div class="container">
+            <div>
+                <input class="caixa-texto" id="descricao" type="text" placeholder="Digite aqui a descriçao do prato">
+                <input class="caixa-texto" id="valor" type="number" placeholder="Digite aqui o valor do prato">
+                <input class="caixa-texto" id="imagem" type="text" placeholder="Digite aqui a url da sua imagem">
+            </div>
+            <div class="caixa-frete">
+                <input id="input-frete1" class="frete" type="checkbox">
+                <label class="frete-texto">Entrega grátis</label>
+            </div>
+            <div id="botao-adicionar">
+                <button onclick="adicionar()">Adicionar</button>
+            </div>
+            <div>
+                <div class="container-busca">
+                    <input id="caixa-busca" class="caixa-texto" type="text" placeholder="Digite aqui a sua busca">
+                    <input id="input-frete2" class="frete" type="checkbox">
+                    <label id="caixa-fretetexto" class="frete-texto">Apenas entrega grátis</label>
+                </div>
+            </div>
+            <div class="botao-filtro">
+                <button onclick="filtrar()">Filtrar</button>
+                <button onclick="limpar()">Limpar Filtros</button>
+            </div>
+        </div>
+        <section id="pratos"></section>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10px;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.tela {
+    margin: auto;
+    border-top: 18px solid black;
+    width: 225px;
+    height: 252px;
+    margin-top: 30px;
+    background-color: gray;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-right: 38px;
+}
+
+.espaco {
+    margin: 5px 10px;
+    width: 50px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.digitado {
+    display: block;
+    margin: -15px 10px;
+    width: 15px;
+    height: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    float: left;
+}
+
+.espaco:hover {
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+
+#d1 {
+    display: block;
+    margin: 5px 85px;
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    margin: 30px 100px;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(39, 39, 39);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.tela span {
+    background-color: aqua;
+}

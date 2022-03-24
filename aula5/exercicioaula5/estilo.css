@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(42, 116, 252);
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+#texto {
+    margin-bottom: 15px;
+    width: 35%;
+    padding: 5px 5px 100px 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 4px solid rgb(108, 159, 255);
+    border-radius: 5px;
+}
+
+#busca {
+    width:  35%;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    border: 3px solid rgb(108, 159, 255);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#substituta {
+    width:  35%;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    border: 3px solid rgb(108, 159, 255);
+    border-radius: 5px;
+    font-weight: bold; 
+}
+
+button {
+    padding: 8px 50px;
+    margin-top: 10px;
+    border: 2px solid rgb(157, 191, 255);
+    background-color: rgb(96, 133, 202);
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 55, 99);
+    color: white;
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(202, 220, 255);
+}
+
+h1 {
+    margin: auto;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    box-shadow: 1px 1px 5px -3px black;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.caixa1 {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.caixa1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.caixa2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.caixa2 {
+    margin-right: 50px;
+}
+
+.caixa1 input {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.caixa1 input:focus {
+    background-color: rgb(240, 240, 240);
+}
+
+.caixa2 input {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.caixa2 input:focus {
+    background-color: rgb(240, 240, 240);
+}
+
+button {
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(40, 93, 190);
+    transition: 0.2s;
+}
+
+#tabela {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#situacao {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+

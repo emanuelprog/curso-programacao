@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Calculadora IMC</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Calculadora IMC</h1>
+        <div class="caixa1">
+         <label>Peso</label>
+         <input id="caixa-peso" type="number">
+        </div>
+        <div class="caixa2">
+         <label>Altura</label>
+         <input id="caixa-altura" type="number">
+        </div>
+        <button onclick="calcular()">Calcular</button>
+        <button onclick="classificar()">Classificar</button>
+        </div>
+
+        <div id="tabela"></div>
+    </body>
+    </html>

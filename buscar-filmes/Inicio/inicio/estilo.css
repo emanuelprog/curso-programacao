@@ -1,0 +1,103 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 20px 0%;
+}
+
+h2 {
+    margin: auto;
+    width: 60%;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.container input {
+    margin-top: 30px;
+    width: 60%;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline-style: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.container button {
+    padding: 8px 12px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    border-bottom: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 108, 250);
+    transition: 0.3s;
+}
+
+#catalogo {
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cartaz {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: auto 10px;
+    margin-bottom: 30px;
+}
+
+.cartaz img {
+    width: 150px;
+    height: 200px;
+}
+
+
+.cartaz p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.cartaz button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    margin-top: 5px;
+}
+
+.cartaz button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 108, 250);
+    transition: 0.3s;
+}
+
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 50px;
+    align-items: flex-start;
+}

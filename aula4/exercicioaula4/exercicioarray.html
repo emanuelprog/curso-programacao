@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Controle de Contas</title>
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Controle de Contas</h1>
+
+        <label for="Receita" class="titulo">Receita</label>
+        <div class="Receita">
+            <input id="receita" type="number" placeholder="Valor da Receita">
+            <button onclick="adicionarReceita()">Adicionar</button>
+        </div>
+
+        <label for="Despesa" class="titulo">Despesa</label>
+        <div class="Despesa">
+            <input id="despesa" type="number" placeholder="Valor da Despesa">
+            <button onclick="adicionarDespesa()">Adicionar</button>
+        </div>
+
+        <div class="resultado">
+            <div>
+                <label for="resultadoReceita">Total de Receitas:</label>
+                <span id="resultadoReceita"></span>
+            </div>
+
+            <div>
+                <label for="resultadoDespesa">Total de Despesas:</label>
+                <span id="resultadoDespesa"></span>
+            </div>
+
+            <div>
+                <label for="resultadoBalanco">Balanço:</label>
+                <span id="resultadoBalanco"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

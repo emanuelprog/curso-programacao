@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(241, 251, 255);
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    color: black;
+}
+
+.caixa {
+    display: block;
+    width: 22%;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.caixa input {
+    margin-bottom: 30px;
+    margin-top: 3px;
+    padding: 10px 10px;
+    border: 3px solid rgb(133, 190, 255);
+    border-radius: 5px;
+}
+
+.caixa label {
+    display: block;
+    font-weight: bold
+}
+
+button {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 12px;
+    background-color:rgb(133, 190, 255);
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
