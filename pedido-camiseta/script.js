@@ -72,6 +72,7 @@ function listarCamisetas() {
     }
 }
 
+
 function excluir(posicao) {
     if (confirm("Tem certeza que deseja excluir este pedido?")) {
         camisetas.splice(posicao, 1)
