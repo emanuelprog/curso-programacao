@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eff7ff;
+    text-align: left;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: #d1e8fd;
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    border: 2px solid #95c8fa;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container input:focus {
+    background-color: rgb(241, 241, 241);
+}
+
+h1 {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: #95c8fa;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #95c8fa;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transition: 0.3s;
+}
+
+.lista {
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #eff7ff;
+    background-color: white;
+    text-align: center;
+}
+
+th {
+    width: 60px;
+    height: 40px;
+    border: 2px solid #eff7ff;
+    background-color: cornflowerblue;
+    font-size: 18px;
+}
+
+#p {
+    border-top-left-radius: 10px;
+}
+
+#bordafinal {
+    border-top-right-radius: 10px;
+}
+
+#editar {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#excluir {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#editar:hover {
+    cursor: pointer;
+    background-color: rgb(0, 80, 0);
+}
+
+#excluir:hover {
+    cursor: pointer;
+    background-color: rgb(105, 0, 0);
+}
+
+#divTotal {
+    width: 40%;
+    text-align: right;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}

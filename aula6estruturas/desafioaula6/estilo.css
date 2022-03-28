@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    color: blue;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.caixa input {
+    width: 50%;
+    padding: 10px 5px 10px;
+    font-weight: bold;
+    border: 2px solid blue;
+}
+
+.caixa button {
+    padding: 10px 20px 10px;
+    margin-left: 20px;
+    border: 2px solid blue;
+    background-color: rgb(163, 163, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.caixa button:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: rgb(0, 0, 116);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.resultado {
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 15px 5px 5px;
+    width: 65%;
+    text-align: left;
+}
+
+.resultado label {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.todosNumeros {
+    margin-bottom: 50px;
+}
+
+.todosNumeros label {
+    display: block;
+}
+
+.todosNumerosOrdenados label {
+    display: block;
+}
+
+#ordenar button {
+    margin-top: 30px;
+    padding: 10px 20px 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(84, 146, 92);
+    background-color: rgb(167, 255, 164);
+    color: white;
+    font-weight: bold;
+}
+
+#ordenar button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(0, 255, 21);
+    background-color: rgb(0, 104, 17);
+    color: white;
+}
+

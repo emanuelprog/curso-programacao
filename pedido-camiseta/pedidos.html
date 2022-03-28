@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Camisetas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerenciar Pedido</h1>
+        <label>Quantidade P (R$ 10,00)</label>
+        <input id="camisetaP" type="number">
+        <label>Quantidade M (R$ 12,00)</label>
+        <input id="camisetaM" type="number">
+        <label>Quantidade G (R$ 15,00)</label>
+        <input id="camisetaG" type="number">
+        <button onclick="salvar()">Salvar Pedido</button>
+    </div>
+    <div class="lista">
+        <table>
+            <thead>
+                <th id="p">P</th>
+                <th>M</th>
+                <th>G</th>
+                <th>Total</th>
+                <th></th>
+                <th id="bordafinal"></th>
+            </thead>
+            <tbody id="tabelaPedidos"></tbody>
+        </table>
+    </div>
+    <div id="divTotal"></div>
+</body>
+
+</html>
